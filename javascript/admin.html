@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    
+    <link rel="icon" href="images/download.jpeg">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+        rel="stylesheet">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/style.js"></script>
+    <title>Sci-Fi Hub</title>
+    <link rel="stylesheet" type="text/css" href="css/scifi.css">
+</head>
+
+<body class="body">
+    <nav class="navbar nav-fixed navbar-expand-lg">
+        <img src="images/scifi.ico" alt="Sci-Fi">
+        <a class="navbar-brand" href="#">Sci-Fi Zone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" data-value="home" href="index.html#home-page">Home</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" data-value="about" href="index.html#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-link " data-value="gallery" href="index.html#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a class="nav-link " data-value="contact" href="index.html#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="nav-link " data-value="contact" href="admin.html">Admin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home-page">
+        <div class="wrapper">
+                
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Add/Edit/Delete</button>
+
+                <div id="id01" class="modal">
+            
+                   
+                <form action="#" class="modal-content animate" >
+                    <div class="imgcontainer">
+                            <p style="color:black">Select images below to edit/delete</p>
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> 
+                    </div>
+                    <div class="formId">
+                    <label for="url">URL</label>
+                    <input type="text" id="url" name="website" placeholder="Enter url..">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label for="info">Information</label>
+                    <input type="text" id="info" name="info" placeholder="Enter info..">
+                    <label for="date">Uploaded Date</label>
+                    <input type="text" id="udate" name="udate" placeholder="Uploaded date.."><br><br>
+                    </div>
+
+                    <input type="submit" value="Add" onclick=add()>
+                    <input type="submit" value="Edit" onclick=edit()>
+                    <input type="submit" value="Delete" onclick=del()>
+
+                </form>
+           
+                <div class="wrapper">
+                        <h1>Gallery</h1>
+                        <div class="grid" id="jsonImages">
+                            <script>display(); </script>
+                        </div>
+                    </div>
+
+        </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

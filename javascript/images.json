@@ -1,0 +1,76 @@
+{
+    "images":[
+        {
+            "url":"images/image1.jpeg",
+            "name":"Arrivals",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image2.jpeg",
+            "name":"Live on the edge",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image3.jpeg",
+            "name":"Passengers",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image4.jpeg",
+            "name":"End game",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image5.jpeg",
+            "name":"Captain Marvel",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image6.jpeg",
+            "name":"Ex-machine",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image9.jpeg",
+            "name":"Annihilation",
+            "information":"Arrivals is a clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image11.jpeg",
+            "name":"bumble bee",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/image23.jpeg",
+            "name":"Replicas",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/123.jpg",
+            "name":"Stranger things",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/inception.jpeg",
+            "name":"Inception",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        },
+        {
+            "url":"images/martian.jpeg",
+            "name":"Martian",
+            "information":"A clean sci-fi movie.",
+            "date":"2018-12-09"
+        }
+    ]
+}
